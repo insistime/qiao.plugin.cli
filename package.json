@@ -1,0 +1,25 @@
+{
+  "name": "qiao.plugin.cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "nodejs cli tool",
+  "keywords": [
+    "nodejs",
+    "cli",
+    "tool"
+  ],
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+  },
+  "author": {
+    "name": "qiaowenbin",
+    "email": "npm@insistime.com",
+    "url": "https://insistime.com"
+  },
+  "homepage": "https://code.insistime.com/qiao.plugin.cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insistime/qiao.plugin.cli.git"
+  }
+}
