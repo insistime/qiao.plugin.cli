@@ -35,3 +35,4 @@ test();
 # version
 ## 0.0.1.20181023
 1. init project
+2. add inquirer
