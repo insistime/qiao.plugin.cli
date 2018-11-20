@@ -41,6 +41,9 @@ test();
 ```
 
 # version
+## 0.0.2.20181120
+1. add commander
+
 ## 0.0.1.20181023
 1. init project
 2. add inquirer
