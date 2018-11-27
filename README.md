@@ -17,6 +17,7 @@ npm install qiao.plugin.cli
 
 ## documentation
 1. inquirer, https://github.com/SBoudrias/Inquirer.js
+2. commander, https://www.npmjs.com/package/commander
 
 # api
 ## ask
@@ -38,6 +39,27 @@ var test = async function(){
 };
 
 test();
+```
+
+## cmd
+```javascript
+'use strict';
+
+var qiaoPluginCli = require('qiao.plugin.cli');
+
+// cmd
+qiaoPluginCli.cmd
+	.version('0.0.1', '-v, --version')
+	.usage('<command> [options]')
+	.description('qiao.plugin.cli is a nodejs cli tool')
+	.command('test <dir>')
+	.option('-s --ss', 'ss')
+	.action(function(dir, options){
+		console.log(dir, options);
+	});
+
+// parse
+qiaoPluginCli.cmd.parse(process.argv);
 ```
 
 # version
