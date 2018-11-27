@@ -1,6 +1,6 @@
 'use strict';
 
-var qiaoPluginCli = require('../lib/qiao.plugin.cli');
+var qiaoPluginCli = require('../lib/qiao.plugin.cli.js');
 
 // cmd
 qiaoPluginCli.cmd
