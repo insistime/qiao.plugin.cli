@@ -63,6 +63,9 @@ qiaoPluginCli.cmd.parse(process.argv);
 ```
 
 # version
+## 0.0.3.20181127
+1. cmd.js
+
 ## 0.0.2.20181120
 1. add commander
 
