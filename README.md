@@ -14,10 +14,13 @@ npm install qiao.plugin.cli
 
 ## dependencies
 1. inquirer
+2. commander
+3. colors
 
 ## documentation
 1. inquirer, https://github.com/SBoudrias/Inquirer.js
 2. commander, https://www.npmjs.com/package/commander
+3. colors, https://www.npmjs.com/package/colors
 
 # api
 ## ask
@@ -60,6 +63,16 @@ qiaoPluginCli.cmd
 
 // parse
 qiaoPluginCli.cmd.parse(process.argv);
+```
+
+## colors
+```javascript
+'use strict';
+
+var qiaoPluginCli = require('../lib/qiao.plugin.cli.js');
+
+// colors
+console.log(qiaoPluginCli.colors.green('hello'));
 ```
 
 # version
