@@ -12,7 +12,7 @@
   "scripts": {},
   "dependencies": {
     "commander": "^2.19.0",
-    "inquirer": "^6.2.0"
+    "inquirer": "^6.2.1"
   },
   "author": {
     "name": "qiaowenbin",
