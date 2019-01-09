@@ -76,9 +76,13 @@ console.log(qiaoPluginCli.colors.green('hello'));
 ```
 
 # version
+## 0.0.4.20190109
+1. update inquirer@6.2.1
+2. add colors 
+
 ## 0.0.3.20181127
 1. cmd.js
-2. add .js
+2. add.js
 
 ## 0.0.2.20181120
 1. add commander
