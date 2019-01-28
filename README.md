@@ -13,16 +13,49 @@
 npm install qiao.plugin.cli
 
 ## dependencies
-1. inquirer
-2. commander
-3. colors
+1. colors
+2. progress
+3. inquirer
+4. commander
 
 ## documentation
-1. inquirer, https://github.com/SBoudrias/Inquirer.js
-2. commander, https://www.npmjs.com/package/commander
-3. colors, https://www.npmjs.com/package/colors
+1. colors, https://www.npmjs.com/package/colors
+2. progress, https://www.npmjs.com/package/progress
+3. inquirer, https://github.com/SBoudrias/Inquirer.js
+4. commander, https://www.npmjs.com/package/commander
 
 # api
+## colors
+```javascript
+'use strict';
+
+var qiaoPluginCli = require('qiao.plugin.cli');
+
+// colors
+console.log(qiaoPluginCli.colors.green('hello'));
+```
+
+## progress
+```javascript
+'use strict';
+
+var qiaoPluginCli = require('qiao.plugin.cli');
+
+var test = function(){
+	var bar		= new qiaoPluginCli.progress(':bar', { total: 10 });
+	var timer 	= setInterval(function () {
+		bar.tick();
+		
+		if(bar.complete){
+			console.log('\ncomplete\n');
+			clearInterval(timer);
+		}
+	}, 100);
+};
+
+test();
+```
+
 ## ask
 ```javascript
 'use strict';
@@ -65,17 +98,10 @@ qiaoPluginCli.cmd
 qiaoPluginCli.cmd.parse(process.argv);
 ```
 
-## colors
-```javascript
-'use strict';
-
-var qiaoPluginCli = require('../lib/qiao.plugin.cli.js');
-
-// colors
-console.log(qiaoPluginCli.colors.green('hello'));
-```
-
 # version
+## 0.0.5.20190128
+1. add progress
+
 ## 0.0.4.20190109
 1. update inquirer@6.2.1
 2. add colors 
