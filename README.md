@@ -102,6 +102,10 @@ qiaoPluginCli.cmd.parse(process.argv);
 ```
 
 # version
+## 0.0.7.20191205
+1. update packages
+2. add funding
+
 ## 0.0.6.20190808
 1. update npms
 
