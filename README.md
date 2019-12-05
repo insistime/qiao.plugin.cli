@@ -8,6 +8,9 @@
 ## npm
 [https://www.npmjs.com/package/qiao.plugin.cli](https://www.npmjs.com/package/qiao.plugin.cli)
 
+## donate
+[http://uikoo9.com/donate](http://uikoo9.com/donate)
+
 # started
 ## install
 npm install qiao.plugin.cli
