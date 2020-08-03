@@ -12,8 +12,8 @@
   "scripts": {},
   "dependencies": {
     "colors": "^1.4.0",
-    "commander": "^4.0.1",
-    "inquirer": "^7.0.0",
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.3",
     "progress": "^2.0.3"
   },
   "author": {
